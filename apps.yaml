@@ -1,0 +1,3 @@
+solmate:
+  module: solmate-mqtt-client
+  class: Solmate
