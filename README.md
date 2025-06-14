@@ -29,6 +29,18 @@ apps/
 apps.yaml
 ```
 
+## 🔗 Inspiration & Quellen
+
+Einige der Skripte in diesem Repository basieren auf Ideen oder Code aus der Home Assistant Community und anderen Open-Source-Projekten.  
+Vielen Dank an alle Entwickler:innen, die ihre Lösungen teilen! 🙌
+
+### Repositories & Quellen:
+
+- [https://github.com/home-assistant/example-appdaemon-apps](https://github.com/MatthiasKrt/home-assistant-eet-solmate-mqtt) – MQTT Client für die EET Solmate Photovoltaik Anlage mit Speicher von [MatthiasKrt](https://github.com/MatthiasKrt/home-assistant-eet-solmate-mqtt/commits?author=MatthiasKrt)
+
+Wenn du dein Skript auf einem fremden Projekt basiert hast, ergänze die Liste bitte entsprechend oder öffne ein Pull Request.
+
+
 ## 📄 Lizenz
 
 [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
