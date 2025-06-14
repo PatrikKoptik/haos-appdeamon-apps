@@ -27,3 +27,13 @@ apps/
 ├── solmate-mqtt-client.py
 └── ...
 apps.yaml
+```
+
+## 📄 Lizenz
+
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+Die Inhalte dieses Repositories stehen unter der Lizenz [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Das bedeutet: Du darfst die Skripte frei verwenden, anpassen und weiterverbreiten – auch für kommerzielle Zwecke – **sofern** du eine angemessene Namensnennung vornimmst.  
+Bitte verweise bei Weiterverwendung auf dieses Repository oder den ursprünglichen Autor.
+
