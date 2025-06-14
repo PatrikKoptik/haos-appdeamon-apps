@@ -48,15 +48,12 @@ class Solmate(hass.Hass):
         mqttClient = mqttConnect()
 
         try:
-    #       while True:
-                liveVals = solmateClient.get_live_values()
-                online = solmateClient.check_online()
-                mqttPublish(mqttClient, "eet-solmate/status/online", online)
+            liveVals = solmateClient.get_live_values()
+            online = solmateClient.check_online()
+             mqttPublish(mqttClient, "eet-solmate/status/online", online)
 
-                for property_name in liveVals.keys():
-                    mqttPublish(mqttClient, f"eet-solmate/{property_name}", liveVals[property_name])
-
-    #           sleep(60 * 5) # 5 Minuten warten
+            for property_name in liveVals.keys():
+                mqttPublish(mqttClient, f"eet-solmate/{property_name}", liveVals[property_name])
         except Exception as ex:
             print(ex)
 
